@@ -14,7 +14,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 ### Paso 2
 
-En el explorador de archivos, descomprima el archivo `jdk-8u181-windows-x64.tar.gz`.
+En el explorador de archivos, descomprima el archivo `jdk-8u181-windows-x64.tar.gz`. Encontrará el instalador de Java.
 
 
 ### Paso 3
