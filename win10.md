@@ -42,39 +42,33 @@ Descomprima el archivo desde el explorador de archivos, renombre el directorio c
 
 ### Paso 6
 
-Descargue el repositorio 
+Descargue el repositorio ##ZIP donde esté el bin## y corte y pegue todos los archivos de  `bin` reemplazando los contenidos del directorio `C:\hadoop\bin`
 
-    mv hadoop-3.1.1 ~/hadoop
+### Paso 7
+
+Abra en el panel de control la opción  `Editar las variables de entorno del sistema` y realice los siguientes cambios:
+
+> Agregue las siguientes variables
+
+    HADOOP_HOME = C:\hadoop
+    JAVA_HOME = C:\Java\jdk1.8.0_181
+    HADOOP_CLASSPATH = %JAVA_HOME%\lib\tools.jar
+    
+![alt](images/var-1.png)
+
+![alt](images/var-2.PNG)
+    
+> Modifique la variable PATH. Agregue:
+
+    %HADOOP_HOME%\bin
+    %JAVA_HOME%\bin
+
+![alt](images/var-3.PNG)
 
 
 ### Paso 8
 
-Edite su archivo `.bashrc` usando un editor de textos. Puede hacer esto desde
-la línea de comandos con:
-
-    code ~/.bash_profile
-    
-Agregue los siguientes comandos (reemplace `USER` por su nombre de usuario):
-
-    export JAVA_HOME="/home/USER/jdk1.8.0_181"
-    export PATH="$JAVA_HOME/bin:$PATH"
-
-    export HADOOP_HOME="/home/jdvelasq/hadoop"
-    export HADOOP_COMMON_LIB_NATIVE_DIR="$HADOOP_HOME/lib/native"
-    export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
-    export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
-    export HADOOP_ROOT_LOGGER="ERROR,console"
-    export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
-    export PATH="$HADOOP_HOME:$HADOOP_HOME/bin:$PATH"
-
-
-### Paso 9
-
-Verifique la instalación. En Terminal digite 
-
-    source ~/.bashrc
-
-para hacer efectivos los cambios. Luego digite `hadoop` en la línea de comandos. 
+Digite `hadoop` en la línea de comandos. 
 Como resultado, debe imprimirse la ayuda de hadoop en la pantalla.
 
 
