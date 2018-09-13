@@ -19,7 +19,7 @@ En el explorador de archivos, descomprima el archivo `jdk-8u181-windows-x64.tar.
 
 ### Paso 3
 
-Al ejecutar el instalador, cambie el directorio de instalación de Java por `C:\Java\jdk1.8.0_181\` para la primera disribución (JDK)
+Al ejecutar el instalador, cambie el directorio de instalación de Java por `C:\Java\jdk1.8.0_181\` para la primera disribución (JDK).
 
 ![alt](images/wdw-java-dir.PNG)
 
