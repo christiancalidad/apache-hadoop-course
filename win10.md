@@ -37,7 +37,7 @@ Descargue el archivo **binario** de Apache Hadoop 2.8.3 desde https://hadoop.apa
 
 Descomprima el archivo desde el explorador de archivos, renombre el directorio como `hadoop` y ubiquelo en el archivo en el disco `C:`.
 
-    `C:\hadoop\`
+    C:\hadoop\
     
 
 ### Paso 6
