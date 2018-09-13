@@ -7,7 +7,7 @@ Esta es la instalación más simple.
 
 ### Paso 1
 
-Descargue Java SE Development Kit (JDE) 8u181 (jdk-8u181-linux-x64.tar.gz). 
+Descargue Java SE Development Kit (JDE) 8u181 (jdk-8u181-windows-x64.tar.gz). 
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
