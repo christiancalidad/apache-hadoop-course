@@ -23,7 +23,7 @@ Al ejecutar el instalador, cambie el directorio de instalación de Java por `C:\
 
 ![alt](images/wdw-java-dir.PNG)
 
-Luego, el instalador le pedirá una ruta para ubicar el archivo JRE. Cree un nuevo directorio desde el explorador de archivos `C:\Java\jre1.8.0_181` y redireccione la segunda instalación hacia el.
+Luego, el instalador le pedirá una ruta para ubicar el archivo JRE. Cree un nuevo directorio desde el explorador de archivos dentro de `C:\Java` llamado `\jre1.8.0_181\` `(C:\Java\jre1.8.0_181\)` redireccione la segunda instalación hacia el.
 
 ![alt](images/wdw-java-dir2.PNG)
 
@@ -44,7 +44,7 @@ Descomprima el archivo desde el explorador de archivos, renombre el directorio c
 
 Descargue el siguiente repositorio y descomprimalo: https://github.com/steveloughran/winutils
 
-Del directorio `hadoop-2.8.3/bin` copie pegue todos los archivos de  `bin` y peguelos en el directorio `C:\hadoop\bin` reemplazando los contenidos originales.
+Del directorio `hadoop-2.8.3\bin` copie pegue todos los archivos de  `bin` y peguelos en el directorio `C:\hadoop\bin` reemplazando los contenidos originales.
 
 ### Paso 7
 
