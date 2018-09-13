@@ -68,8 +68,8 @@ Abra en el panel de control la opción  `Editar las variables de entorno del sis
 
 ### Paso 8
 
-Digite `hadoop` en la línea de comandos. 
-Como resultado, debe imprimirse la ayuda de hadoop en la pantalla.
+Digite `hadoop fs -dir` en la línea de comandos. 
+Como resultado, debe imprimirse que el comando `-dir` no existe y adicionalmente la ayuda de hadoop en la pantalla.
 
 
 **Nota.--** En este paso, Apache Hadoop se puede ejecutar en modo *standalone*.
