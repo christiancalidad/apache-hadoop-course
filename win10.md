@@ -18,7 +18,7 @@ En el explorador de archivos, descomprima el archivo `jdk-8u181-linux-x64.tar.gz
 
 ### Paso 3
 
-Habra Terminal, navegue hasta el folder de descargas (`/home/USER/Downloads`), y 
+Abra Terminal, navegue hasta el folder de descargas (`/home/USER/Downloads`), y 
 descomprima el archivo con
 
     tar -xvf jdk-8u181-linux-x64.tar
