@@ -4,6 +4,7 @@
 Esta guía describe la instalación y configuración  de Apache Hadoop en modo standalone. 
 Esta es la instalación más simple.
 
+
 ### Paso 1
 
 Descargue Java SE Development Kit (JDE) 8u181 (jdk-8u181-linux-x64.tar.gz). 
@@ -24,47 +25,24 @@ Al ejecutar el instalador, cambie el directorio de instalación de Java por `C:\
 
 Luego, el instalador le pedirá una ruta para ubicar el archivo JRE. Cree un nuevo directorio desde el explorador de archivos `C:\Java\jre1.8.0_181` y redireccione la segunda instalación hacia el.
 
-
 ![alt](images/wdw-java-dir2.PNG)
-
-
 
 
 ### Paso 4 
 
+Descargue el archivo **binario** de Apache Hadoop 2.8.3 desde https://hadoop.apache.org/releases.html
 
-
-### Paso 4
-
-Abra Terminal, navegue hasta el folder de descargas (`/home/USER/Downloads`), y 
-descomprima el archivo con
-
-    tar -xvf jdk-8u181-linux-x64.tar
-    
-    
-### Paso 4
-
-Mueva el archivo a su directorio home. Puede usar el comando `mv` o la utilidad de 
-manejo de archivos.
-
-    mv jdk1.8.0_181 ~/jdk1.8.0_181
 
 ### Paso 5
 
-Descargue Apache Hadoop 3.1.1 de https://hadoop.apache.org/releases.html
+Descomprima el archivo desde el explorador de archivos, renombre el directorio como `hadoop` y ubiquelo en el archivo en el disco `C:`.
 
+    `C:\hadoop\`
+    
 
 ### Paso 6
 
-Descomprima el archivo desde Terminal (ubicado en el folder `Downloads`):
-
-    tar -xvf hadoop-3.1.1.tar
-    
-    
-### Paso 7
-
-Mueva el archivo a su directorio `home` y renombrelo. Puede usar el comando `mv` o la utilidad de 
-manejo de archivos.
+Descargue el repositorio 
 
     mv hadoop-3.1.1 ~/hadoop
 
