@@ -42,7 +42,9 @@ Descomprima el archivo desde el explorador de archivos, renombre el directorio c
 
 ### Paso 6
 
-Descargue el repositorio ##ZIP donde esté el bin## y corte y pegue todos los archivos de  `bin` reemplazando los contenidos del directorio `C:\hadoop\bin`
+Descargue el siguiente repositorio y descomprimalo: https://github.com/steveloughran/winutils
+
+Del directorio `hadoop-2.8.3/bin` copie pegue todos los archivos de  `bin` y peguelos en el directorio `C:\hadoop\bin` reemplazando los contenidos originales.
 
 ### Paso 7
 
