@@ -18,12 +18,30 @@ En el explorador de archivos, descomprima el archivo `jdk-8u181-linux-x64.tar.gz
 
 ### Paso 3
 
+Al ejecutar el instalador, cambie el directorio de instalación de Java por `C:\Java\jdk1.8.0_181` para la instalación de la primera disribución (JDK)
+
+![alt](images/wdw-java-dir.PNG)
+
+Luego, el instalador le pedirá una ruta para ubicar el archivo JRE. Cree un nuevo directorio desde el explorador de archivos `C:\Java\jre1.8.0_181` y redireccione la segunda instalación hacia el.
+
+
+![alt](images/wdw-java-dir2.PNG)
+
+
+
+
+### Paso 4 
+
+
+
+### Paso 4
+
 Abra Terminal, navegue hasta el folder de descargas (`/home/USER/Downloads`), y 
 descomprima el archivo con
 
     tar -xvf jdk-8u181-linux-x64.tar
-
-
+    
+    
 ### Paso 4
 
 Mueva el archivo a su directorio home. Puede usar el comando `mv` o la utilidad de 
