@@ -32,6 +32,8 @@ Luego, el instalador le pedirá una ruta para ubicar el archivo JRE. Cree un nue
 
 Descargue el archivo **binario** de Apache Hadoop 2.8.3 desde https://hadoop.apache.org/releases.html
 
+![alt](images/apache-1.PNG)
+
 
 ### Paso 5
 
