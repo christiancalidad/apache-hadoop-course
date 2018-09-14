@@ -15,44 +15,36 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 ### Paso 2
 
-Descargue el archivo `jdk-8u181-linux-x64.tar.gz`.
-
-    wget jdk-8u181-linux-x64.tar.gz
+Descargue el archivo `jdk-8u181-linux-x64.tar.gz`
 
 ### Paso 3
 
-Descomprima el archivo con
+Ubiquelo en el directorio `~/home/USER` y descomprima el archivo 
 
+    mv jdk1.8.0_181 ~/jdk1.8.0_181
     tar -xvf jdk-8u181-linux-x64.tar
 
 
 ### Paso 4
 
-Mueva el archivo a su directorio home. Puede usar el comando `mv` o la utilidad de 
-manejo de archivos.
-
-    mv jdk1.8.0_181 ~/jdk1.8.0_181
-
-### Paso 5
-
 Descargue Apache Hadoop 3.1.1 de https://hadoop.apache.org/releases.html con `wget`.
 
 
-### Paso 6
+### Paso 5
 
 Descomprima el archivo desde Terminal (ubicado en el folder `Downloads`):
 
     tar -xvf hadoop-3.1.1.tar
     
     
-### Paso 7
+### Paso 6
 
 Mueva el archivo a su directorio `home` y renombrelo.
 
     mv hadoop-3.1.1 ~/hadoop
 
 
-### Paso 8
+### Paso 7
 
 Edite su archivo `.bashrc` usando un editor de textos. Puede hacer esto desde
 la línea de comandos con:
@@ -73,7 +65,7 @@ Agregue los siguientes comandos (reemplace `USER` por su nombre de usuario):
     export PATH="$HADOOP_HOME:$HADOOP_HOME/bin:$PATH"
 
 
-### Paso 9
+### Paso 8
 
 Verifique la instalación. En Terminal digite 
 
