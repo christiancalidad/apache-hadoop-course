@@ -49,7 +49,7 @@ Mueva el archivo a su directorio `home` y renombrelo.
 Edite su archivo `.bashrc` usando un editor de textos. Puede hacer esto desde
 la línea de comandos con:
 
-    code ~/.bash_profile
+    code ~/.bashrc
     
 Agregue los siguientes comandos (reemplace `USER` por su nombre de usuario):
 
@@ -58,7 +58,6 @@ Agregue los siguientes comandos (reemplace `USER` por su nombre de usuario):
 
     export HADOOP_HOME="/home/jdvelasq/hadoop"
     export HADOOP_COMMON_LIB_NATIVE_DIR="$HADOOP_HOME/lib/native"
-    export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
     export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
     export HADOOP_ROOT_LOGGER="ERROR,console"
     export HADOOP_CLASSPATH=$JAVA_HOME/lib/tools.jar
