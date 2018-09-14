@@ -7,9 +7,9 @@ En los siguientes documentos encontrará la guía de instalación del software s
 
 * [Ubuntu](ubuntu-standalone.md)
 
-* [Windows 10](win10.md)
+* [Windows 10](win10-standalone.md)
 
-* [Ubuntu-Bash-on-Windows](bash-win10.md)
+* [Ubuntu-Bash-on-Windows](ubuntu-on-windows.md)
      
      
 **Juan David Velásquez Henao**    
