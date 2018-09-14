@@ -62,8 +62,8 @@ Abra en el panel de control la opción  `Editar las variables de entorno del sis
     
 > Modifique la variable PATH. Agregue:
 
-    %HADOOP_HOME%\bin
-    %JAVA_HOME%\bin
+    C:\Java\jdk1.8.0_181\bin
+    C:\hadoop\bin
 
 ![alt](images/var-3.PNG)
 
